@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.slideshow {
+    margin-top: 30px;
+}
+
+/* about */
+
+.about {
+    text-align: center;
+    padding: 30px;
+}
+
+.about-p {
+    text-align: left;
+}
+
+.about h1, .about p {
+    margin: 20px 0;
+}
+
+/* member */
+
+.member {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.member-items {
+    width: 25%;
+    text-align: center;
+}
+
+.member-items img {
+    width: 100%;
+}
+
+/* ticket */
+
+.ticket {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.tour-container {
+    background-color: #fff;
+    color: #b0a799;
+    text-align: left;
+}
+
+.tour-items {
+    border-bottom: 1px solid #b0a799;
+    padding: 10px;
+    position: relative;
+}
+
+.tour-items-sold-out {
+    padding: 3px 5px;
+    background-color: #f44336;
+    color: white;
+}
+
+.tour-items-number {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+
+.tour-place {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tour-place-items {
+    background-color: #fff;
+    color: black;
+    text-align: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.tour-button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.tour-button:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}

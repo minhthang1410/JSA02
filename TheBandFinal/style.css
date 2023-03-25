@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+/* Navigation */
+.nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Slider */
+.slider {
+    margin-top: 35px;
+}
+
+/* About */
+.about {
+    text-align: center;
+    margin: 50px;
+}
+
+.about-content {
+    text-align: left;
+}
+
+.about p, .about h1 {
+    margin: 20px 0;
+}
+
+/* Member */
+.member {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 50px 50px;
+    flex-wrap: wrap;
+}
+
+.member-content p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Tour */
+.tour {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.tour h1, .tour-note {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-list {
+    background-color: white;
+    color: black;
+    width: 75%;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tour-items {
+    padding: 10px;
+    border-bottom: 1px solid #a5aab0;
+    position: relative;
+}
+
+.tour-items-sold-out {
+    background-color: #f34336;
+    color: white;
+    padding: 5px;
+}
+
+.tour-items-number {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}
+
+.tour-place {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.tour-place-items {
+    background-color: white;
+    color: black;
+    width: 30%;
+}
+
+.tour-place-items img {
+    width: 100%;
+}
+
+.tour-place-items p, .tour-place-items button {
+    margin: 20px 10px;
+}
+
+.tour-place-items-date {
+    color: #a5aab0;
+}
+
+.tour-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 0;
+}
+
+.contact h1, .contact-quote {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.contact-items i {
+    margin: 0 10px;
+}
+
+.contact-form-input-row1 input {
+    padding: 10px;
+}
+
+.contact-form-input-row2 input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.form-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    float: right;
+}
+
+/* Footer */
+.footer {
+    height: 200px;
+    padding: 50px 0;
+    text-align: center;
+    color: #696969;
+}
+
+.footer i {
+    font-size: 50px;
+    color: #696969;
+}
+
+.footer p {
+    margin: 20px 0;
+    font-size: 20px;
+}

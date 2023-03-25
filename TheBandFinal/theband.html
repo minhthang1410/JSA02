@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="theband.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="nav">
+            <a href="#slideshow">HOME</a>
+            <a href="#about">BAND</a>
+            <a href="#ticket">TOUR</a>
+            <a href="#">CONTACT</a>
+            <a href="#">MORE</a>
+        </div>
+        <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+    </div>
+
+    <!-- slide show -->
+    <div class="slideshow" id="slideshow">
+        <img src="https://www.w3schools.com/w3images/chicago.jpg" width="100%" class="slider">
+        <img src="https://www.w3schools.com/w3images/la.jpg" width="100%" class="slider">
+        <img src="https://www.w3schools.com/w3images/ny.jpg" width="100%" class="slider">
+        <script>
+            w3.slideshow(".slider", 1000)
+        </script>
+    </div>
+
+    <!-- about -->
+    <div class="about" id="about">
+        <h1>THE BAND</h1>
+        <p><i>We love music</i></p>
+        <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima unde pariatur accusantium, quo at libero dolorum sunt culpa dignissimos perspiciatis itaque, quisquam hic sequi ipsam doloribus excepturi maxime ad velit.</p>
+    </div>
+
+    <!-- member -->
+    <div class="member">
+        <div class="member-items">
+            <p>Name</p>
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg">
+        </div>
+        <div class="member-items">
+            <p>Name</p>
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg">
+        </div>
+        <div class="member-items">
+            <p>Name</p>
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg">
+        </div>
+    </div>
+
+    <!-- ticket -->
+    <div class="ticket" id="ticket">
+        <h1>TOUR DATES</h1>
+        <p><i>Remember to book your tickets!</i></p>
+        <div class="tour-container">
+            <ul class="tour-list">
+                <li class="tour-items">
+                   September
+                   <span class="tour-items-sold-out">Sold out</span>
+                </li>
+                <li class="tour-items">
+                    October
+                    <span class="tour-items-sold-out">Sold out</span>
+                 </li>
+                 <li class="tour-items">
+                    November
+                    <span class="tour-items-number">3</span>
+                 </li>
+            </ul>
+        </div>
+
+        <div class="tour-place">
+            <div class="tour-place-items">
+                <img src="https://www.w3schools.com/w3images/newyork.jpg" width="100%">
+                <p><b>New York</b></p>
+                <p>Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="tour-button">Buy Ticket</button>
+            </div>
+            <div class="tour-place-items">
+                <img src="https://www.w3schools.com/w3images/paris.jpg" width="100%">
+                <p><b>New York</b></p>
+                <p>Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="tour-button">Buy Ticket</button>
+            </div>
+            <div class="tour-place-items">
+                <img src="https://www.w3schools.com/w3images/sanfran.jpg" width="100%">
+                <p><b>New York</b></p>
+                <p>Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="tour-button">Buy Ticket</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="contact">
+        contact
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+    <!-- map -->
+    <div class="map">
+        map
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        footer
+    </div>
+</body>
+</html>
