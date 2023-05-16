@@ -26,3 +26,11 @@
 
 // let answer = prompt("Hello ! What your name ?");
 // console.log(answer);
+
+for (let i = 1; i <= height; i++) {
+    let line = "";
+    for (let j = 1; j <= i; j++) {
+        line += "*"
+    }
+    console.log(line)
+}
