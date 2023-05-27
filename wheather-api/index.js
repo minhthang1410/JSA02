@@ -1,4 +1,7 @@
-let q = "ho chi minh";
+import data1 from "./data.json"
+let q = "vung tau";
+
+console.log(data1);
 
 const url = `https://weatherapi-com.p.rapidapi.com/current.json?q=${q}&lang=vi`;
 const options = {
@@ -13,7 +16,7 @@ fetch(url, options).then((response) => {
     return response.json();
 }).then((data) => {
     displayTitle(data.location.country, data.location.name);
-    displayCondition(data.current.condition.icon, data.current.temp_c, data.current.condition.text)
+    displayCondition(data.current.condition.icon, data.current.temp_c, data.current.condition.text);
 });
 
 function displayTitle(country, city) {
